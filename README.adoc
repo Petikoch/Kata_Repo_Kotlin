@@ -1,0 +1,28 @@
+= Kata
+
+== Setup Java
+
+=== Mac Setup using SDKMAN!
+
+Open a terminal
+
+Install the latest Java version using https://sdkman.io/
+
+`sdk install java 15.0.1.hs-adpt`
+
+Check the current version using sdkman:
+
+`sdk current java`
+
+Set the current version using sdkman if necessary using e.g.:
+
+`sdk default java 15.0.1.hs-adpt`
+
+Doublecheck using java itself:
+
+`java -version`
+
+Now the gradle build should run fine:
+
+`gradle build`
+
