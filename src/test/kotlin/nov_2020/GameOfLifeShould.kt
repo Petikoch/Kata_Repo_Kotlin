@@ -1,3 +1,6 @@
+package nov_2020
+
+import Board
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
@@ -18,7 +21,7 @@ class GameOfLifeShould {
             ---
             ---
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
@@ -37,7 +40,7 @@ class GameOfLifeShould {
             ----
             ----
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
@@ -56,7 +59,7 @@ class GameOfLifeShould {
             -oo-
             ----
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
@@ -75,7 +78,7 @@ class GameOfLifeShould {
             -ooo-
             -ooo-
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
@@ -94,7 +97,7 @@ class GameOfLifeShould {
             -o-o-
             -ooo-
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
@@ -113,7 +116,7 @@ class GameOfLifeShould {
             --o--
             -----
         """.trimIndent(),
-                nextGeneration.toString()
+            nextGeneration.toString()
         )
     }
 
