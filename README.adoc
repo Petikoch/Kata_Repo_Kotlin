@@ -6,17 +6,17 @@
 
 Open a terminal
 
-Install the latest Java version using https://sdkman.io/
+Install the latest Java version using https://sdkman.io/ and set it as default
 
-`sdk install java 15.0.1.hs-adpt`
+`sdk install java 17.0.1-oracle`
 
-Check the current version using sdkman:
+Check the current (default) version using sdkman:
 
 `sdk current java`
 
 Set the current version using sdkman if necessary using e.g.:
 
-`sdk default java 15.0.1.hs-adpt`
+`sdk default java 17.0.1-oracle`
 
 Doublecheck using java itself:
 

@@ -1,14 +1,14 @@
 plugins {
-    kotlin("jvm") version "1.4.31"
-    id( "com.github.ben-manes.versions") version "0.38.0"
+    kotlin("jvm") version "1.5.31"
+    id( "com.github.ben-manes.versions") version "0.39.0"
 }
 
 tasks {
     compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "16"
     }
     compileTestKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "16"
     }
 }
 
@@ -19,9 +19,9 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
-    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
-    testImplementation("org.assertj:assertj-core:3.19.0")
-    testImplementation("org.mockito:mockito-core:3.9.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("org.assertj:assertj-core:3.21.0")
+    testImplementation("org.mockito:mockito-core:4.0.0")
     // testImplementation("org.mockito:mockito-junit-jupiter:2.+")
 }
 
