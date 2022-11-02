@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.6.10"
-    id( "com.github.ben-manes.versions") version "0.41.0"
+    kotlin("jvm") version "1.7.20"
+    id( "com.github.ben-manes.versions") version "0.43.0"
 }
 
 tasks {
@@ -19,9 +19,9 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
-    testImplementation("org.assertj:assertj-core:3.22.0")
-    testImplementation("org.mockito:mockito-core:4.3.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
+    testImplementation("org.assertj:assertj-core:3.23.1")
+    testImplementation("org.mockito:mockito-core:4.8.1")
     // testImplementation("org.mockito:mockito-junit-jupiter:2.+")
 }
 
