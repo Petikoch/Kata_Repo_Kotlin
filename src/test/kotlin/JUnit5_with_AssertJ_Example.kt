@@ -2,7 +2,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
-class MyClassShould {
+class JUnit5_with_AssertJ_Example {
 
     @Test
     fun `behave fine`() {
